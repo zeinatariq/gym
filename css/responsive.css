@@ -1,0 +1,18 @@
+@media (max-width: 992px) {
+    .col-3 { width: 50%; }
+}
+
+@media (max-width: 768px) {
+    .col-6, .col-4, .col-8 { width: 100%; margin-bottom: 20px; }
+    .nav-links { display: none; } 
+    .reverse-mobile { flex-direction: column-reverse; }
+    .hero-content h2 { font-size: 2.5rem; }
+    .hero-content { padding-left: 20px; }
+    .gallery-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 480px) {
+    .col-3 { width: 100%; }
+    .gallery-grid { grid-template-columns: 1fr; }
+    }
+    
